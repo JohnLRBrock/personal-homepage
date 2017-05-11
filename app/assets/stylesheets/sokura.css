@@ -160,9 +160,11 @@ label, legend, fieldset {
   font-weight: 600; }
 
 html {
-  background-image: url(/mountain-john.jpg);
+  background-image: url(/eu-owl.jpg);
   background-attachment: fixed;
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 html, body {
   min-height: 100%;
@@ -172,7 +174,7 @@ html, body {
   z-index: 1;
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   background: rgba(0, 0, 0, 0.7);    
